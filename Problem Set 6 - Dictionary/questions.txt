@@ -1,0 +1,19 @@
+0.  A lung disease caused by inhaling very fine ash and sand dust.
+1.  returns resource usage measures for the argument who
+2.  16
+3.  I think it is to avoid putting another struct into memory.  That would take more time, and use more memory.
+4.  It appends chracters to the word array while ignoring
+    numbers and strings that have more than the given, fixed length. Then, once it reaches the end of the string, the function
+    prepares for a new word. Once a whole word is found, the current word in the word array is terminated, the counter is updated,
+    and the spelling is checked. If the word is misspelled, the function prints that word. Then it once again prepares
+    for the next word.
+5.  One problem that could arise is that you may read a word that is larger than the size of the array assigned
+    to read each word, which could casue unpredictable results.  By reading 1 character at a time, and keeping track
+    of the length, you can bail once you reach the predetermined max length.
+6.  Constants are unable to be changed.  This should preserve the integrity of the variable.
+7.  A trie.  The structure in the trie consists of a boolean value to denote if this node if the trie is the end of
+    a word, and an array containing all of the possible characters (a-z, and ') that could follow the current node.
+8.  My code didn't vary much from the first implementation.  It was quicker mainly because of using a smaller
+    dictionary during development.
+9.  I didn't make any changes to increase the performance.  Only to get it working properly.
+10. No, there weren't any bottlenecks, my code works just fine. Thank you
