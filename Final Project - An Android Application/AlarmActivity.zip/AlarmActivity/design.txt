@@ -1,0 +1,14 @@
+This is my CS50 Final Project Implementation
+
+Design.txt
+
+The design's very slick there are four tabs :
+a. Set Single Alarm.
+b. Set Repeating Alarm.
+c. Set Inexact Repeating Alarm.
+d. Cancel Repeating Alarm.
+
+The application's very handy to use. It allows you to easily set up and cancel alarm just like alarm clock , just my implementation of it. Lot to come , in google play store.
+
+Thank you for having a look at my application. 
+And for the great course. 

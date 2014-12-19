@@ -1,0 +1,70 @@
+0.  Supported colors by file format:
+    -- BMP supports colors from monochrome to 32-bit colors
+    -- GIF supports 256 colors 
+    -- JPEG supports 24-bit colors
+    -- PNG supports 24- or 32-bit colors
+
+1.  The GIF is the only file format in this group that supports animation.
+
+2.  Lossy compression is an encoding scheme that discards data each time
+	the data is compressed. Lossless compression does not discard data.
+
+3.  JPEG is a lossy compression format. BMP is either lossy 
+	or lossless.
+
+4.  When a file is deleted from a FAT file system, the operating system
+	places a special mark at the beginning of the file name, signaling 
+	that the file can be used for a different purpose. Then, the data
+	storage space for that file is added to the list of free space located
+	on the storage medium. The actual data of the file does not interact
+	with the operating system.
+
+5.  You can destroy the disk drive, or you can apply overwriting to 
+	the disk, writing meaningless data over the data you want to sanitize.
+
+6.  The C header file stdint.h further defines intergers as a data type.
+	This includes the definitions of constants and limits for integers.
+	These definitions are needed to help developers more control over how
+	ints are defined in their programs, and increases portability.
+
+7.  Using such data types as uint8_t, uint16_t, and the others, allow the programs
+	that uses those data types to define how many bytes are in the data type.
+
+8.  In a 32-bit architecure:
+	-- a BYTE is one byte long
+	-- a DWORD is four bytes long
+	-- a LONG is four bytes long
+	-- a WORD is two bytes long
+
+9.  The first two bytes in a BMP must be the ASCII characters 'B' and 'M'
+
+10. The bfSize refers to the number of bytes in the file, including the headers. 
+	The biSize refers to the number of bytes in the bitmap, not including
+	the headers.
+
+11. A negative biHeight means that the BMP file's first pixel is rendered
+	in the upper left-hand corner of the image.
+
+12. The biBitCount field in BITMAPINFOHEADER contains the color depth.
+
+13. The function fopen may return NULL if it was unable to open a file, or
+	if some other error occured.
+
+14. The CS50 code always uses 1 as the third argument in the fread function
+	because the code needs to read each bit in the file to copy a chunk of
+	data into memory. If the third argument	where more than 1, then more bits
+	than necessary would to read to memory.
+
+15. Given an input of biWidth of 3, the program logic in copy.c:70 would
+	assign the variable padding a value of 1, to make it 4, which is 
+	divisible by 4.
+
+16. The function fseek takes a FILE pointer, and positions that pointer
+	in the file. That position is defined by two parameters: the first is
+	the number of bytes to move, and the second is either the start of
+	the file, the end of the file, and the pointer's current position.
+
+17. The value of SEEK_CUR in fseek is the FILE pointer's current position
+	in the file.
+
+18. Milo Banana dun it.

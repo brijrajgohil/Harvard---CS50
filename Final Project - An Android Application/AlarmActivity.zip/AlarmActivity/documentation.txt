@@ -1,0 +1,30 @@
+This is my CS50 Final Project Implementation
+
+Documentation.txt 
+
+About the Application : 
+I have created an android application like a alarm clock which can be used to set , change and delete alarms.It's a very simple application.
+I have added all of my files inside final.zip files it contains all the files required to run the application inside eclipse.exe ( which is an the android devlopment tool used to create applications ). 
+
+Complilation : 
+The application works with variety of android operating systems ranging from 2.3.3 Gingerbread to 4 Jellybean. 
+
+The application is typically created with the API ( Application Programming Interface) 18. As for the starters it's the best.
+So, the application can be run on all sorts of devices with android.
+
+Installing it into your device : 
+The application is very easy to install on your android device , you just have send this file *.apk (which is the extension for android application files like *.app for MAC OSX applications ) from your desktop to your device via mail, or adding by a file manager. Then just by tapping onto the application it'll ask for permission and acceptance , by accepting you'll get the application installed.
+
+Installation error : 
+After tapping onto the *.apk file if the device doesn't install the application onto the device there might be some permission changes that should be made in order to get the application running on the device. 
+The permissions that are to be given are that by default , the packages (android application packages ) *.apk in the google play store are only allowed to be installed into your devices. As my final project ( the alarm application ) which I created isn't inside the google play store but an outside package , should be allowed to get installed into your device. 
+This can be done by  : Settings > Security 
+(Check the box with "Unknown Sources , Allow installation of apps from unknown sources")
+By doing this it gets installed.
+
+Future Ideas : 
+This application here is still just a startup as CS50 gave me a boost I now explore the world of computer science than any other subject.
+The application is very primitive I'll be adding many more features like to-do lists , reminders , calender and much more to it with some intuitive design.
+
+Thanks for having a look. 
+And for the great course. 
